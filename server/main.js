@@ -13,7 +13,7 @@ SyncedCron.add({
 	},
 
 	job: function () {
-		const districtId = 312; // OPTION: Change districtId based on your district, please refer README.md for the codes.
+		const districtId = 581; // OPTION: Change districtId based on your district, please refer README.md for the codes.
 		const age = 18; // OPTION: Use 18 for 18 - 45 age group; Use 45 for 45+ age group; Use 0 for 0 - 18 age group;
 
 		checkSlots(districtId, age);
